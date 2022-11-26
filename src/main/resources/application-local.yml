@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+bot:
+  name: GetCbrRatesbot
+  token: 5987757156:AAENFLIyjhWB0nuaUZaG_oIziQ7jtpBhMts
+
+urls:
+  cbrServicePath: http://localhost:8081/rates
+
+
+spring:
+  main:
+    allow-circular-references: true
+  cloud:
+    compatibility-verifier:
+      enabled: false
